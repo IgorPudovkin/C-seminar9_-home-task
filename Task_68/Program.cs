@@ -4,11 +4,12 @@
 //m = 3, n = 2 -> A(m,n) = 29
 using System;
 using static System.Console;
+Clear();
+
 Write("Enter M: ");
 int a1 = int.Parse(ReadLine());
 Write("Enter N: ");
 int a2 = int.Parse(ReadLine());
-
 WriteLine($"Ackerman function = {Aсkerman(a1, a2)}");
 
 int Aсkerman(int m, int n)
